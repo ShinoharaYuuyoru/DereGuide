@@ -36,8 +36,17 @@ class ToolboxTableViewController: BaseTableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: ToolboxTableViewCell.description(), for: indexPath) as! ToolboxTableViewCell
         
         cell.descLabel.text = dataSource[indexPath.row]["title"]
-        cell.icon.cardID = Int(dataSource[indexPath.row]["iconId"]!)
+        if let iconName = dataSource[indexPath.row]["iconName"] {
+            cell.icon.image = UIImage(named: iconName)
+        } else {
+            cell.icon.cardID = Int(dataSource[indexPath.row]["iconId"]!)
+        }
         
+//        if indexPath.row == 0 {
+//            cell.icon.tintColor = UIColor(r: 255, g: 86, b: 15)
+//        } else if indexPath.row == 4 {
+//            cell.icon.tintColor = UIColor(r: 237, g: 189, b: 67)
+//        }
         return cell
     }
     

@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>iconName</key>
+		<string>birthday</string>
 		<key>cName</key>
 		<string>BirthdayNotificationViewController</string>
 		<key>iconId</key>
@@ -11,6 +13,8 @@
 		<string>偶像生日提醒</string>
 	</dict>
 	<dict>
+		<key>iconName</key>
+		<string>character</string>
 		<key>cName</key>
 		<string>CharInfoViewController</string>
 		<key>iconId</key>
@@ -18,15 +22,19 @@
 		<key>title</key>
 		<string>角色信息查询</string>
 	</dict>
-    <dict>
-        <key>cName</key>
-        <string>SongViewController</string>
-        <key>iconId</key>
-        <string>200294</string>
-        <key>title</key>
-        <string>歌曲信息查询</string>
-    </dict>
 	<dict>
+		<key>iconName</key>
+		<string>song</string>
+		<key>cName</key>
+		<string>SongViewController</string>
+		<key>iconId</key>
+		<string>200294</string>
+		<key>title</key>
+		<string>歌曲信息查询</string>
+	</dict>
+	<dict>
+		<key>iconName</key>
+		<string>gacha</string>
 		<key>cName</key>
 		<string>GachaViewController</string>
 		<key>iconId</key>
@@ -35,6 +43,8 @@
 		<string>模拟抽卡</string>
 	</dict>
 	<dict>
+		<key>iconName</key>
+		<string>event</string>
 		<key>cName</key>
 		<string>EventViewController</string>
 		<key>iconId</key>
@@ -43,6 +53,8 @@
 		<string>活动信息查询</string>
 	</dict>
 	<dict>
+		<key>iconName</key>
+		<string>colleague</string>
 		<key>cName</key>
 		<string>ColleagueViewController</string>
 		<key>iconId</key>
